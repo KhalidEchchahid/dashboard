@@ -1,0 +1,15 @@
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - build/**/*
+extraMetadata:
+  main: build/electron.js
+appId: com.smif.app
+productName: Smif
+target: NSIS
+nsis:
+  allowToChangeInstallationDirectory: true
+  oneClick: false
+extends: react-cra
+electronVersion: 24.2.0

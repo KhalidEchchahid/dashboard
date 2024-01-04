@@ -1,0 +1,25 @@
+getbyrole: etud, prof, adm
+api serch  add datagrid
+
+
+
+
+dashboard page: fetch student + prof + charts
+
+
+====================== electron ===================
+run : npm run electron:start
+build : 
+add this to package.json under scripts
+    "build": {
+    "appId": "com.smif.app",
+    "productName": "Smif",
+    "target": "NSIS",
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  },
+
+command: npm run electron:build
+
